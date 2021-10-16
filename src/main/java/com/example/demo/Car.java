@@ -10,4 +10,13 @@ public class Car {
         Enginer = enginer;
         this.kolor = kolor;
     }
+
+
+    public void print() {
+        System.out.print( "Car{" +
+                "Model='" + Model + '\'' +
+                ", Enginer=" + Enginer +
+                ", kolor='" + kolor + '\'' +
+                '}');
+    }
 }

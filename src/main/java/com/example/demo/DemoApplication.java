@@ -8,6 +8,8 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
+		Car car = new Car("BMW",8, "Green");
+		car.print();
 	}
 
 }
