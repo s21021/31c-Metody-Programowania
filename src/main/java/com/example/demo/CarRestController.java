@@ -15,6 +15,8 @@ public class CarRestController {
         this.carService = carService;
     }
     //h2 databases spring boot
+    //responseEntity
+    //generyczność
 
     @GetMapping
     public ResponseEntity<Car> printHelloWorld() {
