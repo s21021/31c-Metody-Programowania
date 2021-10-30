@@ -7,10 +7,10 @@ public class Car {
     private int Kola;
 
     public Car(String model, int enginer, String kolor, int kola) {
-        Model = model;
-        Enginer = enginer;
+        this.Model = model;
+        this.Enginer = enginer;
         this.kolor = kolor;
-        Kola = kola;
+        this.Kola = kola;
     }
 
     public String getModel(String bmw) {
@@ -37,7 +37,7 @@ public class Car {
         this.kolor = kolor;
     }
 
-    public int getKoła(int i) {
+    public int getKoła() {
         return Kola;
     }
 
