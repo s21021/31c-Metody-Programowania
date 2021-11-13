@@ -20,7 +20,7 @@ public class CarRestController {
 
     @GetMapping
     public ResponseEntity<Car> printHelloWorld() {
-        Car body = carService.carFind("open", "czarny");
+        Car body = carService.carFind("opel","czarny");
         return ResponseEntity.ok(body);
     }
 }
